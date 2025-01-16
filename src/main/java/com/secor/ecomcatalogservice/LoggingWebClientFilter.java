@@ -1,4 +1,4 @@
-package com.secor.ecomcustomerservice;
+package com.secor.ecomcatalogservice;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

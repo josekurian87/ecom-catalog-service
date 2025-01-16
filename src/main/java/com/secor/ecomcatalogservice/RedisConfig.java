@@ -1,4 +1,4 @@
-package com.secor.ecomcustomerservice;
+package com.secor.ecomcatalogservice;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
