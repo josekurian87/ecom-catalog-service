@@ -18,6 +18,11 @@ public class ProductCatalogController {
         return productCatalogRepository.findAll();
     }
 
+    @GetMapping("/{productId}")
+    public ProductCatalog getInventoryForProductId(@PathVariable Long productId) {
+        return productCatalogRepository.findByProductId(productId);
+    }
+
     @PostMapping
     public ProductCatalog addProduct(@RequestBody ProductCatalog product) {
         return productCatalogRepository.save(product);
